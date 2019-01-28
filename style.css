@@ -60,9 +60,13 @@ ul {
 ul:before {
     content: 'Quick links';
     font-family: 'Permanent Marker', cursive;
-    color: rgb(28, 33, 104);
-    background-color: rgba(245, 233, 149, 0.5);
+    color: rgb(255, 255, 255);
+    background-color: rgba(51,0,102,0.2);
     font-size: 22pt;
+}
+
+li {
+    padding-top: 10px;
 }
 
 ol {
@@ -76,8 +80,8 @@ ol {
 ol:before {
     content: 'Google links';
     font-family: 'Permanent Marker', cursive;
-    color: rgb(28, 33, 104);
-    background-color: rgba(245, 233, 149, 0.5);
+    color: rgb(255, 255, 255);
+    background-color: rgba(51,0,102,0.2);
     font-size: 22pt;
 }
 
@@ -86,7 +90,7 @@ li {
 }
 
 a {
-    color: rgb(28, 33, 104);
+    color: rgb(255, 255, 255);
     display: inline-block;
     overflow: hidden;
     position: relative;
