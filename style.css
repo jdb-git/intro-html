@@ -68,7 +68,7 @@ ul:before {
 ol {
     list-style-type: none;
     grid-row-start: 2;
-    grid-column-start: 3;
+    grid-column-start: 4;
     width: 200px;
     font-size: 14pt;
 } 
