@@ -65,7 +65,7 @@ ul:before {
     font-size: 22pt;
 }
 
-ol {
+ul {
     list-style-type: none;
     grid-row-start: 2;
     grid-column-start: 3;
@@ -73,7 +73,7 @@ ol {
     font-size: 14pt;
 } 
 
-ol:before {
+ul:before {
     content: 'Google links';
     font-family: 'Permanent Marker', cursive;
     color: rgb(28, 33, 104);
